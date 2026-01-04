@@ -1,0 +1,40 @@
+:root {
+  /* Nova paleta de cores conforme especificação do cliente */
+  --color-primary: #F8F4F1;
+  /* Cor principal - bege claro suave */
+  --color-primary-alt: #F8F4F1;
+  /* Cor principal alternativa - mesmo tom para consistência */
+  --color-secondary: #6D5341;
+  /* Cor secundária - marrom escuro */
+  --color-secondary-light: #E7E2DE;
+  /* Cor secundária clara - bege médio */
+  --color-secondary-alt: #898876;
+  /* Cor secundária alternativa - verde acinzentado */
+  --color-tertiary: #E7E2DE;
+  /* Cor terciária - bege médio */
+
+  /* Mapeamento das cores antigas para compatibilidade */
+  --color-text: #6D5341;
+  /* Texto principal - marrom escuro */
+  --color-text-2: #6D5341;
+  /* Texto secundário - marrom escuro */
+  --color1: #898876;
+  /* Verde acinzentado para elementos neutros */
+  --color2: #6D5341;
+  /* Marrom escuro para botões e destaques */
+  --color3: #F8F4F1;
+  /* Bege claro para fundos claros */
+  --color4: #6D5341;
+  /* Texto escuro - marrom escuro */
+  --color5: #6D5341;
+  /* Texto escuro - marrom escuro */
+  --color6: #6D5341;
+  /* Marrom escuro */
+  --color7: #898876;
+  /* Verde acinzentado */
+
+  --text-weigth: 500;
+  --titulo: 29px;
+  --subtitulo: font-size: 20px;
+  --text: 17px;
+}

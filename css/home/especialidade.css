@@ -1,0 +1,300 @@
+.container-section-especialidade {
+  background: var(--color-secondary-alt);
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  padding: 50px 0px 00px;
+}
+
+.titulo-sintomas {
+  color: var(--color-secondary);
+  font-weight: 300;
+  line-height: 32px;
+  margin-top: 20px;
+  width: 90%;
+  font-size: 27px;
+  text-align: center;
+}
+
+.div-text-especialidade h2 {
+  font-size: 35px;
+  line-height: 37px;
+  font-weight: 300;
+  color: var(--color-primary);
+}
+
+.div-text-especialidade h2:last-child {
+  font-size: 30px;
+}
+
+.div-text-especialidade p {
+  padding: 10px 0px 15px;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.div-text-especialidade {
+  width: 90%;
+}
+
+#especialidade {
+  flex-direction: column;
+  display: flex;
+}
+
+#card-color {
+  flex-direction: column;
+  display: flex;
+  background: var(--color-primary-alt);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#card-color-1 {
+  background-color: var(--color-primary-alt);
+  box-shadow: 3px 5px 7px 2px rgba(109, 83, 65, 0.15);
+}
+
+#div-text-especialidades {
+  padding: 15px 0px;
+}
+
+#div-text-especialidades h2 {
+  color: var(--color-primary);
+  max-width: 350px;
+  text-align: center;
+  font-weight: 200;
+}
+
+#div-text-especialidades p {
+  color: var(--color3);
+  max-width: 321px;
+}
+
+.card-especialidades h2 {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  color: var(--color-secondary);
+  max-width: 270px;
+  margin-top: 20px;
+}
+
+.container-cards-especialidades {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#primeiro-cards {
+  background-color: white;
+}
+
+.card-especialidades {
+  width: 84%;
+  margin: 0px auto 35px;
+  background: white;
+  padding: 25px 16px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-especialidades img {
+  width: 60px;
+}
+
+.card-especialidades span {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#card-image {
+  width: 100%;
+  border-radius: 8px;
+  filter: brightness(0) saturate(100%) invert(27%) sepia(25%) saturate(1234%)
+    hue-rotate(15deg) brightness(95%) contrast(89%);
+  transition: filter 0.3s ease;
+}
+
+.card-especialidades:hover #card-image {
+  filter: brightness(0) saturate(100%) invert(45%) sepia(15%) saturate(1089%)
+    hue-rotate(35deg) brightness(105%) contrast(92%);
+}
+
+.card-especialidades p {
+  font-size: 14px;
+  line-height: 29px;
+  font-weight: 200;
+  padding: 8px 0px 10px;
+}
+
+.card-especialidades button {
+  height: 33px;
+  border-radius: 31px;
+  border: 1px solid var(--color-secondary-alt);
+  background: transparent;
+  color: var(--color-secondary);
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0px 20px;
+}
+
+.button-cards-doencas {
+  height: 39px;
+  border-radius: 31px;
+  border: none;
+  background: transparent;
+  color: var(--color-secondary);
+  border: 1px solid var(--color-secondary-alt);
+  font-size: 17px;
+  cursor: pointer;
+  padding: 0px 20px;
+}
+
+.div-text-especialidade button {
+  padding: 9px 15px;
+  background: var(--color2);
+  border: none;
+  border-radius: 8px;
+}
+
+.div-text-especialidade button a {
+  color: var(--color3);
+  font-size: 19px;
+  font-weight: 500;
+}
+
+#outras-patologias {
+  background: var(--color-secondary-light);
+}
+
+.containter-img-geral {
+  background-color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containter-img-geral h1 {
+  color: var(--color-secondary);
+  font-size: 35px;
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 40px;
+  margin: 30px 20px 20px;
+  text-align: center;
+  line-height: 42px;
+}
+
+.servicosgerais {
+  display: none;
+}
+
+.servicosgerais2 {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 600px) {
+  .servicosgerais {
+    display: block;
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .servicosgerais2 {
+    display: none;
+  }
+
+  .container-section-especialidade {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px 0px 30px 0px;
+  }
+
+  .card-especialidades h2 {
+    font-size: 21px;
+    margin-top: 12px;
+    line-height: 26px;
+  }
+
+  .card-especialidades p {
+    line-height: 23px;
+    font-size: 12px;
+  }
+
+  .div-text-especialidade {
+    width: 622px;
+  }
+
+  .div-text-especialidade h2 {
+    font-size: 43px;
+    line-height: 42px;
+  }
+
+  .div-text-especialidade p {
+    max-width: none;
+    font-size: 17px;
+    line-height: 30px;
+    padding: 2px 0px 0px;
+  }
+
+  #especialidade {
+    /* padding: 70px 0px 70px; */
+    gap: 20px;
+  }
+
+  #div-text-especialidades {
+    width: auto;
+  }
+
+  #div-text-especialidades h2 {
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 35px;
+    line-height: 53px;
+  }
+
+  #div-text-especialidades p {
+    max-width: 517px;
+    margin: 0px auto;
+    padding: 5px 0px 0px;
+    color: var(--color-primary);
+    text-align: center;
+  }
+
+  .card-especialidades {
+    width: 215px;
+    justify-content: space-between;
+  }
+
+  .cards-mod {
+    width: 185px;
+  }
+
+  .container-cards-especialidades {
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  #card-image {
+    width: 33px;
+    border-radius: 8px;
+    filter: brightness(0) saturate(100%) invert(27%) sepia(25%) saturate(1234%)
+      hue-rotate(15deg) brightness(95%) contrast(89%);
+    transition: filter 0.3s ease;
+  }
+
+  .titulo-sintomas {
+    margin-top: 20px;
+    width: 90%;
+  }
+}

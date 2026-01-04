@@ -1,0 +1,126 @@
+footer {
+  background-color: var(--color-secondary-light);
+}
+
+.div-footer-1 h2 {
+  color: var(--color4);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 200;
+  max-width: 367px;
+  padding-bottom: 13px;
+}
+
+.div-footer-2 {
+  display: flex;
+  gap: 22px;
+  padding-bottom: 18px;
+}
+
+.ul-text-footer-1 li a {
+  color: var(--color4);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 200;
+  max-width: 367px;
+}
+
+.div-footer-1 ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.div-footer-text-2 h2 {
+  color: var(--color4);
+  font-size: 18px;
+  font-weight: 200;
+  padding-bottom: 5px;
+}
+
+.div-footer-text-2 ul a {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.div-footer-text-2 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.div-footer-text-2 ul li {
+  color: var(--color4);
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.container-footer {
+  width: 93%;
+  margin: 1px auto;
+}
+
+.div-footer-1 {
+  padding: 14px 0px;
+}
+
+/* .div-footer-1  img{
+  width: 200px;
+} */
+
+footer h3 {
+  color: var(--color4);
+  font-size: 14px;
+  font-weight: 200;
+  text-align: center;
+  padding: 14px 0px 15px;
+  border-top: 1px solid var(--color4);
+}
+
+.logo-footer {
+  width: 200px;
+}
+
+.pino {
+  width: 20px;
+  margin-bottom: -3px;
+  filter: brightness(0) saturate(100%) invert(27%) sepia(25%) saturate(1234%)
+    hue-rotate(15deg) brightness(95%) contrast(89%);
+}
+
+.ul-text-footer-1 span {
+  font-weight: 400;
+}
+
+@media screen and (min-width: 600px) {
+  .container-footer {
+    margin: 1px auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1100px;
+    padding: 25px 0px;
+    align-items: center;
+  }
+
+  .pino {
+    width: 20px;
+    margin-bottom: -3px;
+    filter: brightness(0) saturate(100%) invert(27%) sepia(25%) saturate(1234%)
+      hue-rotate(15deg) brightness(95%) contrast(89%);
+  }
+
+  .div-footer-1 {
+    padding: 0px 0px;
+  }
+
+  .div-footer-1 h2 {
+    padding: 13px 0px;
+  }
+
+  footer h3 {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
