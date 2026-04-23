@@ -8,7 +8,7 @@
     justify-content: center;
     color: var(--color-primary);
     text-align: center;
-    padding: 40px 20px;
+    padding: 140px 20px 60px;
 }
 
 .consulta-hero-content {
@@ -48,6 +48,10 @@
     .capture-grid {
         grid-template-columns: 1fr;
         gap: 40px;
+    }
+
+    .consulta-hero {
+        padding-top: 110px;
     }
 
     .consulta-hero h1 {
